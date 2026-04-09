@@ -1,0 +1,16 @@
+1.0.0
+- Added German language file: resources/language/resource.language.de_de/strings.po
+- Normalized all language files to a Matrix-compatible gettext structure.
+- Completed missing palette strings (#32142-#32145) across all existing language files.
+- Updated addon id migration to script.skin.helper.colorpicker.bg:
+  - addon.xml extension type fixed for script execution.
+  - python and XML addon-id references aligned.
+- Updated metadata:
+  - Added EN/DE summaries and descriptions.
+  - Added EN/DE news entries.
+  - Mentioned original addon authorship (marcelveldt; continued by sualfred/community).
+- Hook/packaging:
+  - Central hook located at C:\Users\zorno\.githooks\post-commit
+  - Central packaging script at C:\Users\zorno\scripts\build-kodi-addon.ps1
+  - Added include rule for script.skin.helper.colorpicker.bg so ZIP contains only addon-required files
+    (addon.xml, default.py, resources/**).

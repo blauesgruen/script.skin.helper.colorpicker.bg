@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="script.skin.helper.colorpicker.bg" name="Skin Helper Service ColorPicker BG-Edition" version="1.0.0" provider-name="marcelveldt,sualfred and others, blauesgruen">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+		<summary lang="de_DE">Farbwähler für Kodi-Skins. Teil der Skin Helper Suite</summary>
+		<description lang="en_GB">Colorpicker for Kodi skins. This BG edition is based on the original Skin Helper ColorPicker created by marcelveldt and continued by sualfred and the Skin Helper community.</description>
+		<description lang="de_DE">Farbwähler für Kodi-Skins. Diese BG-Edition basiert auf dem ursprünglichen Skin Helper ColorPicker von marcelveldt und wurde von sualfred sowie der Skin-Helper-Community weitergeführt.</description>
+		<news lang="en_GB">[B]1.0.0[/B][CR]- Added German language file (de_DE).[CR]- Normalized all PO files to Matrix-style gettext layout and completed missing strings.[CR]- Fixed addon-id migration to script.skin.helper.colorpicker.bg (script execution + labels).[CR]- Updated global post-commit packaging hook to include only addon-required files.</news>
+		<news lang="de_DE">[B]1.0.0[/B][CR]- Deutsche Sprachdatei (de_DE) ergänzt.[CR]- Alle PO-Dateien auf Matrix-kompatibles gettext-Format vereinheitlicht und fehlende Strings ergänzt.[CR]- Addon-ID-Migration auf script.skin.helper.colorpicker.bg korrigiert (Script-Ausführung + Labels).[CR]- Globalen Post-Commit-Packaging-Hook auf nur addon-notwendige Dateien angepasst.</news>
+		<platform>all</platform>
+		<license>GPL-2.0</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<source>https://github.com/kodi-community-addons/script.skin.helper.colorpicker</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
