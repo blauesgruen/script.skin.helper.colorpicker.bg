@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import xbmc,xbmcgui,xbmcaddon
+import sys
 import resources.lib.ColorPicker as cp
 
 ADDON_ID = "script.skin.helper.colorpicker.bg"
